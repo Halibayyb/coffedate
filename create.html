@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create Your Profile</h1>
+      <form id="profile-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="instagram">Instagram Username:</label>
+        <input
+          type="text"
+          id="instagram"
+          placeholder="your_username"
+          required
+        />
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" accept="image/*" required />
+
+        <button class="btn1" type="submit">Submit</button>
+      </form>
+      <a href="index.html" class="back-link">Back to Home</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
